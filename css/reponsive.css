@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1199px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    position: relative;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+  }
+  .header h1 {
+    font-size: 20px;
+    width: 60%;
+  }
+  .header > ul {
+    width: 40%;
+  }
+  .main {
+    max-width: 100%;
+    min-width: 1199px;
+  }
+
+  .nav {
+    right: 45px;
+  }
+}
+
+@media screen and (max-width: 1025) {
+}
+@media screen and (max-width: 426) {
+}
