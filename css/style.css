@@ -92,6 +92,7 @@
   margin-top: 120px;
 }
 .section > article {
+  flex: 1 1 260px;
   max-width: 260px;
   padding: 20px;
   background-color: #ffffff;
@@ -100,8 +101,10 @@
   margin: 30px;
 }
 .section > article > div {
+  width: 100%;
   height: auto;
 }
 .section > article > div > img {
   object-fit: cover;
+  width: 100%;
 }
